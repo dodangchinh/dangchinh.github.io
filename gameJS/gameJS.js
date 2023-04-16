@@ -79,37 +79,39 @@ function clearStatusClass(element) {
  //******HOAN THIEN CAC CAU HOI*********************
 const questions = [
   {
-    question: 'Who is the best player of all time in football history?',
+    question: 'Khẩu sung có độ giật cao nhất trong PUBG?',
     answers: [
-      { text: 'Maradona', correct: false },
-      { text: 'Zinedie Zidan', correct: false },
-      { text: 'Lionel Messi', correct: true},
-      { text: 'Johan Cruff', correct: false}
+      { text: 'AKM', correct: false },
+      { text: 'M249', correct: false },
+      { text: 'GROZA', correct: true},
+      { text: 'DP-28', correct: false}
     ]
   },
   {
-    question: 'The current leader of Russia? ',
+    question: 'PUBG được phát hành vào năm nào? ',
     answers: [
-      { text: 'Joe Bidden', correct: false },
-      { text: 'Grigo Meveded', correct: false },
-      { text: 'Josef Bacman', correct:  false},
-      { text: 'Vladimir Puttin', correct: true  }
+      { text: '2010', correct: false },
+      { text: '2017', correct: true },
+      { text: '2018', correct:  false},
+      { text: '2011', correct: false }
     ]
   },
   {
-    question: 'Which country is known as the chocolate kingdom?',
+    question: 'Một mùa PUBG kéo dài bao lâu?',
     answers: [
-      { text: 'Belgium', correct: true  },
-      { text: 'Hungary', correct: false  },
-      { text: 'iceland', correct: false  },
-      { text: 'The United start American', correct: false  }
+      { text: '2 Tháng', correct: true  },
+      { text: '1 Tháng', correct: false  },
+      { text: '3 Tháng', correct: false  },
+      { text: '5 Tháng', correct: false  }
     ]
   },
   {
-    question: 'Which of the following is a toxic substance?',
+    question: 'Rank cao nhất trong PUBG là gì?',
     answers: [
-      { text: 'Amoniac', correct: false },
-      { text: 'Kali Diaxua', correct: true }
+      { text: 'Quán Quân', correct: false },
+      { text: 'Cao Thủ', correct: false },
+      { text: 'Bậc Thầy', correct: false },
+      { text: 'Chí tôn', correct: true }
     ]
   }
 ]
